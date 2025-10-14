@@ -1,73 +1,106 @@
-# React + TypeScript + Vite
+# NOVATECH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project involves creating a login and CRUD for a company in the technology sector. Anyone with the correct credentials can view product management, user management, and the page without errors and with ease of use.
 
-Currently, two official plugins are available:
+## Coder details:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First name: Sebastian Salvatore
+Last name: Pereira Maldonado
+Clan: Macondor
+Email: sebasperemald04@gmail.com
+Document: 1001819899
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Screenshots or short GIFs of the main flow.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Project structure:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+my-app/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── .env
+│   ├── server.js
+│   ├── package.json
+│   ├── nodemon.json
+│   ├── db.js
+│   └── config.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.tsx
+│   │   ├── api.ts
+│   │   ├── routes.ts
+│   │   └── index.tsx
+│   ├── tailwind.config.js
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── .env
+├── package.json
+└── README.md
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Steps taken to solve the problem:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Company Problem:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+A company (TechNova) that sells technology products (laptops, monitors, peripherals, and accessories) manages its operations with spreadsheets and internal messages. This creates several problems, which
+are:
+
+
+## Problem characteristics:
+
+- Duplication of products due to SKU handling errors.
+- Difficulty finding up-to-date inventory and pricing information.
+- Lack of control over users (roles and statuses) who manage the catalog.
+- Inconsistency in orders: late or non-existent stock adjustments and incorrectly recorded returns.
+- Loss of information when shared files become corrupted or are not synchronized.
+
+
+## What they asked us to do:
+
+‘’' Management decided to develop an internal web system with React and TypeScript that would allow
+efficient organization of the catalog, users, and basic orders, with strict typing,
+modularity, and best practices. ‘’'
+
+Technologies used in dependencies:
+
+- React
+- TypScript
+- Mysql
+- Express
+- Axios
+- Cors
+
+
+Technologies used in DevDependencies:
+
+- Nodemon
+
+
+## Solution to the problem:
+
+Develop an internal web system with React and TypeScript that allows
+efficient organization of the catalog, users, and basic orders, with strict typing, modularity, and best practices.
+
+
+
+## The system must:
+
+
+
+Steps to clone, configure, and run.
+
+
+- Create a folder anywhere in the system except within Operating System files, recommendation: Desktop, Downloads, Documents...etc.
+
+- Open the repository with the following link in the browser: LINK
+
+- After validating that the link is correct, paste it into the terminal (keys used in Linux Ubuntu distribution CTRL + ALT + T and for 
+
+Translated with DeepL.com (free version)
