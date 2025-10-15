@@ -4,11 +4,11 @@ This project involves creating a login and CRUD for a company in the technology 
 
 ## Coder details:
 
-First name: Sebastian Salvatore
-Last name: Pereira Maldonado
-Clan: Macondor
-Email: sebasperemald04@gmail.com
-Document: 1001819899
+First name: Sebastian Salvatore<br>
+Last name: Pereira Maldonado<br>
+Clan: Macondor<br>
+Email: sebasperemald04@gmail.com<br>
+Document: 1001819899<br>
 
 
 Screenshots or short GIFs of the main flow.
