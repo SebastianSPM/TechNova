@@ -16,32 +16,32 @@ Screenshots or short GIFs of the main flow.
 
 ## Project structure:
 
-my-app/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   ├── server.js
-│   ├── package.json
-│   ├── nodemon.json
-│   ├── db.js
-│   └── config.js
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.tsx
-│   │   ├── api.ts
-│   │   ├── routes.ts
-│   │   └── index.tsx
-│   ├── tailwind.config.js
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── .env
-├── package.json
-└── README.md
+my-app/<br>
+├── backend/<br>
+│   ├── controllers/<br>
+│   ├── models/<br>
+│   ├── routes/<br>
+│   ├── .env<br>
+│   ├── server.js<br>
+│   ├── package.json<br>
+│   ├── nodemon.json<br>
+│   ├── db.js<br>
+│   └── config.js<br>
+├── frontend/<br>
+│   ├── public/<br>
+│   ├── src/<br>
+│   │   ├── components/<br>
+│   │   ├── pages/<br>
+│   │   ├── App.tsx<br>
+│   │   ├── api.ts<br>
+│   │   ├── routes.ts<br>
+│   │   └── index.tsx<br>
+│   ├── tailwind.config.js<br>
+│   ├── package.json<br>
+│   ├── tsconfig.json<br>
+│   └── .env<br>
+├── package.json<br>
+└── README.md<br>
 
 
 
@@ -101,6 +101,4 @@ Steps to clone, configure, and run.
 
 - Open the repository with the following link in the browser: LINK
 
-- After validating that the link is correct, paste it into the terminal (keys used in Linux Ubuntu distribution CTRL + ALT + T and for 
-
-Translated with DeepL.com (free version)
+- After validating that the link is correct, paste it into the terminal (keys used in Linux Ubuntu distribution CTRL + ALT + T)
